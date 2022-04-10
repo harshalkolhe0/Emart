@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuCardActivity"
+    android:background="#82828b"
+    >
+
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/MenuCard_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:gravity="top"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    </android.support.v7.widget.Toolbar>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/MenuCard_toolbar">
+
+
+        <android.support.v7.widget.RecyclerView
+
+            android:id="@+id/MenuRecycle"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_above="@id/signin"/>
+
+        <Button
+            android:id="@+id/signin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentStart="true"
+            android:layout_margin="1dp"
+            android:shadowColor="@android:color/black"
+            android:textColor="@android:color/white"
+            android:background="#46fde2"
+            android:text="@string/add_to_cart"
+             />
+
+    </RelativeLayout>
+
+</RelativeLayout>

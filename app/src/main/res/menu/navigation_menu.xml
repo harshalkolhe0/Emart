@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/HomeNav"
+        android:title="home"
+        android:icon="@drawable/ic_home_black_24dp"
+
+        android:iconTintMode="src_atop"/>
+
+
+    <item
+        android:id="@+id/CartNav"
+        android:icon="@drawable/ic_shopping_cart_black_24dp"
+
+        android:title="cart" />
+    <item
+        android:id="@+id/AccountNav"
+        android:title="account"
+        android:icon="@drawable/ic_account_circle_black_24dp"
+        />
+
+
+
+</menu>

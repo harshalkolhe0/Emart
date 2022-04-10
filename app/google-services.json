@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "648684012577",
+    "firebase_url": "https://dnos-777b9.firebaseio.com",
+    "project_id": "dnos-777b9",
+    "storage_bucket": "dnos-777b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:648684012577:android:857cbcaa3d3412cf",
+        "android_client_info": {
+          "package_name": "hk.dnos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "648684012577-0i8il8817mc480u251ta2b8flhr0d9dn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hk.dnos",
+            "certificate_hash": "51ff66193764e380a83ebaabeffba07c2e649548"
+          }
+        },
+        {
+          "client_id": "648684012577-akjkek3av0pil2u5pst4m6mcmpk2vhjp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM7bVewh63JSgCmYksD3f9meBbKXugVZY"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "648684012577-akjkek3av0pil2u5pst4m6mcmpk2vhjp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
